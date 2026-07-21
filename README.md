@@ -6,7 +6,17 @@ Homebrew casks for software published by Liquescent Development LLC.
 
 ```sh
 brew tap liquescent-development/tap
+brew trust liquescent-development/tap
 brew install --cask gascan
+```
+
+Homebrew 6 refuses to load casks from a third-party tap until you trust it, so
+the `brew trust` step is required and not merely advisory. Without it,
+`brew install` stops with `Refusing to load cask ... from untrusted tap`. To
+trust only this one cask instead of the whole tap:
+
+```sh
+brew trust --cask liquescent-development/tap/gascan
 ```
 
 ## Casks
