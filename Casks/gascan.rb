@@ -1,6 +1,6 @@
 cask "gascan" do
-  version "0.1.19"
-  sha256 "176135fabe41e8be759a74259dd75a353da789e65a19fd7fe3fd949124006fea"
+  version "0.1.20"
+  sha256 "1921c1f4cb28d0500e369e8740c8eeb403c52aa7dbb8db25b368dfd141a77d69"
 
   url "https://github.com/Liquescent-Development/gascan/releases/download/v#{version}/gascan-#{version}-macos-arm64.pkg"
   name "Gas Can"
