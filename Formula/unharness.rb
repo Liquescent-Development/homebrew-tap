@@ -1,25 +1,25 @@
 class Unharness < Formula
   desc "A vendor-neutral TUI and CLI runner for AI coding agents"
   homepage "https://github.com/Liquescent-Development/unharness"
-  version "0.5.0"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.5.0/unharness-aarch64-apple-darwin.tar.xz"
-      sha256 "324c89173935ff580857d9bb389ca704fd7332eca6c234d1fa179ed0262322a0"
+      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.6.0/unharness-aarch64-apple-darwin.tar.xz"
+      sha256 "d8286a69d57d4d684e2e77eb8bc3cbf38c352e969e5a014623463c145176769e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.5.0/unharness-x86_64-apple-darwin.tar.xz"
-      sha256 "67bfad19ae1dbfe4554e72c13ed6a933982eb0965bdf1394dfc7aa38c0ed3c84"
+      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.6.0/unharness-x86_64-apple-darwin.tar.xz"
+      sha256 "57de7528abd7f52c68bbfa7323879e49cfbb787811506024b1125833957a4d18"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.5.0/unharness-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cf3557809005ea0d7e2a92f3b230b7281274f6f06659b78e305deadb8d5f3824"
+      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.6.0/unharness-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6f11fd1f8bae78ec99ac9d4cf03dbf6f2fc480a89e137ee499af4fce8620b1c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.5.0/unharness-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1b656ba5fdf01ae3a3a1620e0ea154ad25d693cde5810fa38ae6cd7ef55a705c"
+      url "https://github.com/Liquescent-Development/unharness/releases/download/v0.6.0/unharness-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e80e4d438e0721904f0133359719571140ec4ff0afdca6f4641657734829d488"
     end
   end
   license "AGPL-3.0-or-later"
